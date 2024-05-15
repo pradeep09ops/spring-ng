@@ -1,0 +1,46 @@
+.navbar-light {
+	background-color: cornflowerblue;
+}
+
+.navbar-small {
+	height:10px;
+	font-size: small;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-panel {
+    overflow: auto;
+}
+
+.top-inner-panel {
+    display: flex;
+    flex-direction: row;
+    height:40%;
+}
+
+.bottom-inner-panel {
+    display: flex;
+    flex-direction: row;
+    height:330px;
+    width:99%;
+}
+
+.top-left-panel {
+    flex: 0 0 40%;
+    overflow: auto;
+}
+
+.top-right-panel {
+    flex: 0 0 60%;
+}
+
+.custom-panel {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin:15px 5px 15px 5px;
+}

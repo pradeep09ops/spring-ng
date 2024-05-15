@@ -1,0 +1,4 @@
+.custom-file-input::-webkit-file-upload-button {
+    background-color: cornflowerblue;
+    color: white;
+}

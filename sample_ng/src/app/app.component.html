@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+	<a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Files Indexer</a>
+</nav>
+<div class = "container" routerLink="/app-index-form" routerLinkActive>
+<div class="container">
+    <div class="top-panel" style="height: 40%;">
+        <div class="container top-inner-panel panel panel-default">
+		    <div class="top-left-panel panel panel-default custom-panel">
+				<app-list-upload-file></app-list-upload-file>
+			</div>
+		    <div class="top-right-panel panel panel-default custom-panel" >
+				<app-create-file-browser></app-create-file-browser>
+			</div>
+		</div>
+    </div>
+ </div>
+ <div>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-small">
+</nav>
+    <div class="bottom-panel" style="height: 70%;">
+        <div class="container bottom-inner-panel panel panel-default">
+		    <app-load-file-panel></app-load-file-panel>
+		</div>
+    </div>
+</div>
+</div>
+<div class = "container" routerLink="/app-index-form-with-values">
+</div>
+<router-outlet></router-outlet>

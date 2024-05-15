@@ -1,0 +1,32 @@
+
+<br/>&nbsp;&nbsp;<h2 mat-dialog-title>Enter Fields to Index File</h2>
+<mat-dialog-content>
+			<mat-form-field>
+        		<input matInput placeholder="Field 1" [(ngModel)]="indexFile.field1">
+      		</mat-form-field><br/>
+      		<mat-form-field>
+        		<input matInput placeholder="Field 2" [(ngModel)]="indexFile.field2">
+      		</mat-form-field><br/>
+      		<mat-form-field>
+        		<input matInput placeholder="Field 3" [(ngModel)]="indexFile.field3">
+      		</mat-form-field><br/>
+      		<mat-form-field>
+        		<input matInput placeholder="Field 4" [(ngModel)]="indexFile.field4">
+      		</mat-form-field><br/>
+      		<mat-form-field>
+        		<input matInput placeholder="Field 5" [(ngModel)]="indexFile.field5">
+      		</mat-form-field><br/>
+      		<mat-form-field>
+        		<input matInput placeholder="Field 6" [(ngModel)]="indexFile.field6">
+      		</mat-form-field><br/>
+      		<mat-form-field>
+        		<input matInput placeholder="Field 7" [(ngModel)]="indexFile.field7">
+      		</mat-form-field><br/>
+			<mat-form-field>
+        		<input matInput placeholder="Field 8" [(ngModel)]="indexFile.field8">
+      		</mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+                <button mat-button [mat-dialog-close]="false">Cancel</button>
+                <button mat-button (click)="onSubmit()">Submit</button>
+		</mat-dialog-actions>
